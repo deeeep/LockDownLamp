@@ -24,15 +24,15 @@
 ported for sparkfun esp32
 31.01.2017 by Jan Hendrik Berlin
 
-adapted for 4 LEDs ESP32 Velleman
+adapted for 4 LEDs ESP32 Velleman Technopolis LockDownLamp
 13.04.2020 by Deepak Mehta and David Truyens
  
  */
 #include <WiFi.h>
 #include <ESPmDNS.h>
 
-const char* ssid     = "Deeeep's Wifi";
-const char* password = "deepakmehta";
+const char* ssid     = "WifiSSID";
+const char* password = "WifiPassword";
 
 WiFiServer server(80);
 
@@ -72,7 +72,7 @@ void setup()
     Serial.println("IP address: ");
     Serial.println(WiFi.localIP());
    
-  if (MDNS.begin("esp32")) {
+  if (MDNS.begin("tplockdownlamp")) {
     Serial.println("MDNS responder started");
     }
     server.begin();
