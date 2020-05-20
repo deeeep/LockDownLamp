@@ -3,11 +3,7 @@ Een project voor Technopolis om een reeks videos te maken waarmee kinderen een L
 
 TinkerCAD references:
 
-MVP1: https://www.tinkercad.com/things/kVUhFtcar9H-lockdownlamp-mvp1
+MVP1 - 1LED: https://www.tinkercad.com/things/j0ecyPQPbXm
+MVP1 - 3LED: https://www.tinkercad.com/things/2BFiBYT4VKv
 
-MVP2: https://www.tinkercad.com/things/lUjijPHdhNq-coronalamp-mvp2
-
-MVP2 for ESP32: https://www.tinkercad.com/things/jYKdr8MLpj7-lockdownlamp-mvp2-esp32
-
-MVP3 for ESP32: https://www.tinkercad.com/things/6gVUOvj9JLl-lockdownlamp-mvp3-esp32
-
+All other schemes are incorporated in the PNG schemes....
